@@ -1,0 +1,165 @@
+*{
+    height: 800px;
+    width: 100%;
+    background-color: aliceblue;
+}
+#maini{
+    height: 760px;
+}
+#one{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top:10%;
+    height: 610px;
+    width: 450px;
+    background-color: rgb(255, 202, 202);
+    border: 2px solid black;
+    border-radius: 8px;
+}
+#r1{
+    position: relative;
+    width: 100%;
+    height: 210px;
+    left:4%;
+}
+#c1{
+
+    overflow-wrap: break-word;
+    left:3%;
+    top:10%;
+    height:auto;
+    width: auto;
+    width: 95%;
+    border: 2px solid black;
+    border-radius: 8px;
+
+}
+#h44{
+    position: relative;                                 /*for symbol*/
+    height:20px;
+    width: auto;
+    font-size: 20px;
+}
+#h4{                                                    /*small no top*/
+    position: relative;                                 /*for symbol*/
+    height:20px;
+    width: auto;
+    font-size: 20px;
+}
+#h1{
+    overflow-wrap: break-word;                                   /*for main values*/
+    position: relative;
+    left: 0;
+    top:5%;
+    height: auto;
+    font-size: 38px;
+}
+
+
+#r2{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    left:4%;
+}
+
+#r3{
+    position: relative;                                                                         /*rows*/
+    width: 100%;
+    height: 80px;
+    left:4%;
+}
+#r4{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    left:4%;
+}
+#r5{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    left:4%;
+}
+#r6{
+    position: relative;
+    width: 100%;
+    height: 75px;
+    left:4%;
+}
+
+
+
+
+
+
+
+#clear{
+    height: 50px;
+}
+#delete{
+    height: 50px;
+}
+
+#sev{
+    height: 50px;
+}
+#eig{
+    height: 50px;
+}
+#nin{
+    height: 50px;
+}
+#div{
+    height: 50px;
+}
+
+
+
+#fou{
+    height: 50px;
+}
+#fiv{
+    height: 50px;
+}
+#six{
+    height: 50px;
+}
+#mul{
+    height: 50px;
+}
+
+
+
+#on{
+    height: 50px;
+}
+#two{
+    height: 50px;
+}
+#thr{
+    height: 50px;
+}
+#min{
+    height: 50px;
+}
+
+
+#dec{
+    height: 50px;
+}
+#zer{
+    height: 50px;
+}
+#equ{
+    height: 50px;
+}
+#plu{
+    height: 50px;
+}
+
+
+
+
+

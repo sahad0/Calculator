@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="calc.css">
+        
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid" id="maini">
+            <div class="container" id="one">
+
+                    <div class="row container-fluid" id="r1">
+                        <div class="col-md-12" id="c1">
+                                <h4 align="right"id="h44"></h4>
+                                <h4 align="right"id="h4"></h4>
+                                <h1 align="right"id="h1"></h1>
+                        </div>
+                    </div>
+
+                    <div class="row container-fluid" id="r2">
+                        <div class="col-md-6 container" style="height:70px;margin-top:15px;"><button class="btn btn-success" type="submit" id="clear"value="clear">AC</button></div>
+                        <div class="col-md-6 container" style="height:70px;margin-top:15px;"><button class="btn btn-danger"  type="submit" id="delete"value="delete">DELETE</button></div>
+                    </div>
+
+                    <div class="row container-fluid" id="r3">
+                        <div class="col-md-3" style="height:60px;margin-top:15px;"><button class="btn btn-primary" id="sev"value="7" onclick="reply_click(this.value)">7</button></div>
+                        <div class="col-md-3" style="height:60px;margin-top:15px;"><button class="btn btn-primary" id="eig"value="8" onclick="reply_click(this.value)">8</button></div>
+                        <div class="col-md-3" style="height:60px;margin-top:15px;"><button class="btn btn-primary" id="nin"value="9" onclick="reply_click(this.value)">9</button></div>
+                        <div class="col-md-3" style="height:60px;margin-top:15px;"><button class="btn btn-primary" id="div"value="/" onclick="reply_click(this.value)">/</button></div>
+                    </div>
+
+                    <div class="row container-fluid" id="r4">
+                        <div class="col-md-3" style="height:60px;margin-top:15px;"><button class="btn btn-primary" id="fou"value="4"onclick="reply_click(this.value)">4</button></div>
+                        <div class="col-md-3" style="height:60px;margin-top:15px;"><button class="btn btn-primary" id="fiv"value="5"onclick="reply_click(this.value)">5</button></div>
+                        <div class="col-md-3" style="height:60px;margin-top:15px;"><button class="btn btn-primary" id="six"value="6"onclick="reply_click(this.value)">6</button></div>
+                        <div class="col-md-3" style="height:60px;margin-top:15px;"><button class="btn btn-primary" id="mul"value="*"onclick="reply_click(this.value)">*</button></div>  
+                    </div>
+                    <div class="row container-fluid" id="r5">
+                        <div class="col-md-3" style="height:60px;margin-top:15px;"><button class="btn btn-primary"  id="on"value="1" onclick="reply_click(this.value)">1</button></div>
+                        <div class="col-md-3" style="height:60px;margin-top:15px;"><button class="btn btn-primary"  id="two"value="2"onclick="reply_click(this.value)">2</button></div>
+                        <div class="col-md-3" style="height:60px;margin-top:15px;"><button class="btn btn-primary"  id="thr"value="3"onclick="reply_click(this.value)">3</button></div>
+                        <div class="col-md-3" style="height:60px;margin-top:15px;"><button class="btn btn-primary"  id="min"value="-"onclick="reply_click(this.value)">-</button></div>
+                        
+                    </div>
+                    <div class="row container-fluid" id="r6">
+                        <div class="col-md-3" style="height:60px;margin-top:15px;"><button class="btn btn-primary"  id="dec"value="."onclick="reply_click(this.value)">.</button></div>
+                        <div class="col-md-3" style="height:60px;margin-top:15px;"><button class="btn btn-primary"  id="zer"value="0"onclick="reply_click(this.value)">0</button></div>
+                        <div class="col-md-3" style="height:60px;margin-top:15px;"><button class="btn btn-primary"  id="equ"value="="onclick="reply_click(this.value)">=</button></div>
+                        <div class="col-md-3" style="height:60px;margin-top:15px;"><button class="btn btn-primary"  id="plu"value="+"onclick="reply_click(this.value)">+</button></div>
+                        
+                    </div>
+            </div>
+
+            
+            
+        </div>
+        
+    </body>
+
+</html>
+
+
+
+<script src="calc.js">
+   
+
+</script>
